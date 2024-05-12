@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PowerWiseCalc</string>
     <string name="copyright_statement">©2024 PowerWise Calc App. \n All rights reserved.</string>
+    <string name="powerwisecalc_githubcode_url"><u>https://github.com/hanisfarhana/PowerWiseCalc</u></string>
 </resources>

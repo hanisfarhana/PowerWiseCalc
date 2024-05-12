@@ -54,7 +54,7 @@ public class CalculateElectricityTariffActivity extends AppCompatActivity {
                 shareIntent.setType("text/plain");
 
                 // Add the content you want to share
-                String shareText = "Sharing this text with you!";
+                String shareText = "you are invited to try this app : https://github.com/hanisfarhana/PowerWiseCalc ";
                 shareIntent.putExtra(Intent.EXTRA_TEXT, shareText);
 
                 // Create a chooser intent to display a list of apps for sharing

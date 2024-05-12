@@ -147,7 +147,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textSize="20sp"
-                android:text="https:Github"/>
+                android:text="@string/powerwisecalc_githubcode_url"/>
 
         </LinearLayout>
 
