@@ -9,15 +9,16 @@
     android:gravity="center"
     tools:context=".SplashActivity">
 
-
-
     <ImageView
         android:id="@+id/logoImageView"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:layout_gravity="center"
         android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
         android:src="@drawable/powerwiselogo"
-        />
+        android:background="@drawable/circle_shape"
+        android:clipToOutline="true" />
 
     <TextView
         android:layout_width="match_parent"

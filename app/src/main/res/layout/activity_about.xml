@@ -5,21 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/blue_gradient_background"
+    android:background="@drawable/button_selected_background"
     tools:context=".AboutActivity">
 
     <include
         android:id="@+id/toolbar"
         layout="@layout/custom_toolbar" />
 
-
-
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:cardCornerRadius="8dp"
-        app:cardBackgroundColor="@color/venice_blue"
+        app:cardBackgroundColor="#AED6F1 "
         app:cardElevation="4dp">
 
         <LinearLayout
@@ -28,12 +26,24 @@
             android:orientation="vertical"
             android:padding="16dp">
 
+            <ImageView
+                android:id="@+id/developerImageView"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/mine_logo"
+                android:background="@drawable/circle_shape"
+                android:clipToOutline="true" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:text="Developer Name: "/>
 
             <TextView
@@ -54,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:cardCornerRadius="8dp"
-        app:cardBackgroundColor="@color/venice_blue"
+        app:cardBackgroundColor="#AED6F1 "
         app:cardElevation="4dp">
 
         <LinearLayout
@@ -68,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:text="Matrix ID:"/>
 
             <TextView
@@ -89,7 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:cardCornerRadius="8dp"
-        app:cardBackgroundColor="@color/venice_blue"
+        app:cardBackgroundColor="#AED6F1 "
         app:cardElevation="4dp">
 
         <LinearLayout
@@ -103,7 +113,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:text="Program Course:"/>
 
             <TextView
@@ -124,7 +134,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         app:cardCornerRadius="8dp"
-        app:cardBackgroundColor="@color/venice_blue"
+        app:cardBackgroundColor="#AED6F1 "
         app:cardElevation="4dp">
 
         <LinearLayout
@@ -138,7 +148,7 @@
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
                 android:textStyle="bold"
-                android:textSize="24sp"
+                android:textSize="20sp"
                 android:text="Link to the App:"/>
 
             <TextView
@@ -160,7 +170,7 @@
         android:layout_height="wrap_content"
         android:text="@string/copyright_statement"
         android:textColor="@color/white"
-        android:textSize="18sp"
+        android:textSize="15sp"
         android:gravity="center"/>
 
 

@@ -178,10 +178,6 @@ public class CalculateElectricityTariffActivity extends AppCompatActivity {
         return charges.setScale(2, BigDecimal.ROUND_HALF_UP); // Round to 2 decimal places
     }
 
-
-
-
-
     private void showToast(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }

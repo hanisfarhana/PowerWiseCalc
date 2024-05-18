@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blue_gradient_background"
+    android:background="@drawable/button_selected_background"
     android:orientation="vertical"
     tools:context=".CalculateElectricityTariffActivity">
 
@@ -26,6 +26,7 @@
         android:layout_margin="30dp"
         android:orientation="vertical">
 
+
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,6 +34,8 @@
             app:cardCornerRadius="8dp"
             app:cardBackgroundColor="@color/venice_blue_darker"
             app:cardElevation="4dp">
+
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -103,7 +106,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="16dp"
             android:textColor="@color/white"
-            android:backgroundTint="@color/bright_blue"
+            android:backgroundTint="@color/venice_blue_darker"
             android:text="Calculate" />
 
         <androidx.cardview.widget.CardView
@@ -130,7 +133,7 @@
                 android:layout_width="300dp"
                 android:layout_height="match_parent"
                 android:padding="15dp"
-                android:text="Total Price:"
+                android:text="Total Price"
                 android:textColor="@color/white"
                 android:textSize="18sp"
                 android:textStyle="bold" />
@@ -141,8 +144,7 @@
                     android:layout_height="match_parent"
                     android:padding="15dp"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/resultTextView"
@@ -150,8 +152,7 @@
                     android:layout_height="match_parent"
                     android:padding="15dp"
                     android:textColor="@color/white"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
+                    android:textSize="18sp" />
 
 
             </LinearLayout>

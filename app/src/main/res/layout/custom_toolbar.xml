@@ -3,9 +3,7 @@
     android:id="@+id/toolbar"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
-    android:background="@drawable/blue_gradient_background">
-
-    <!-- Title and other views can be added here -->
+    android:background="#7FB3D5">
 
     <ImageView
         android:id="@+id/backIconIv"
@@ -17,7 +15,7 @@
         android:id="@+id/titleTv"
         android:layout_width="wrap_content"
         android:layout_height="?actionBarSize"
-        android:text="PowerWise Calc"
+        android:text="  Power Wise Calc"
         android:textStyle="bold"
         android:gravity="center"
         android:textColor="@color/white"
